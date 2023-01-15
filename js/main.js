@@ -41,3 +41,13 @@ parentIndex1.addEventListener('click', event => {
     current.textContent = current.textContent.includes('Learn More') ?
     "Read Less..." : "Learn More...";
 })
+
+
+// const change_btn = document.getElementById('change_btn');
+// function leftClick(){
+//     change_btn.style.left = "0"
+// }  
+
+// function rightClick(){
+//     change_btn.style.left = "110px"
+// }

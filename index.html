@@ -18,7 +18,7 @@
                     <img src="./images/Logo Color.svg" alt="Logo">
                 </a>
     
-                <ul class="nav-menu">
+                <ul class="nav-menu" style="margin-bottom: 0;">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Home</a>
                         <p class="bottomline"></p>
@@ -48,9 +48,9 @@
             </nav>
         </header>
     
-        <div class="head col-12">
+        <div class="head">
             <div class="row">
-                <div class="col-6 head__one">
+                <div class="col-12 col-sm-12 col-lg-6 head__one">
                     <h1>Grow your
                         subscription
                         business</h1>
@@ -59,33 +59,43 @@
                         business end-to-end.</p>
                     <div>
                         <button class="btn started">Get Started</button>
-                        <button class="btn arrow-down">
+                        <button class="btn arrow-down" style="cursor: pointer;">
                             <img src="./images/arrow-down.svg" alt="Error">
                         </button>
                     </div>             
                 </div>
-                <div class="col-6 head__two">
+                <div class="col-12 col-sm-12 col-lg-6 head__two">
                     <img src="./images/Hero 3D.png" alt="Error">
                 </div>
             </div>
-            
         </div>
 
         <div class="logos">
             <div class="row">
-                <img src="./images/Group.svg" alt="Error">
-                <img src="./images/Group (1).svg" alt="Error">
-                <img src="./images/Group (2).svg" alt="Error">
-                <img src="./images/Group (3).svg" alt="Error">
-                <img src="./images/Group (4).svg" alt="Error">
+                <div class="col-4 col-sm-4 col-md-4 col-lg-1">
+                    <img src="./images/Group.svg" alt="Error">
+                </div>
+                <div class="col-4 col-sm-4 col-md-4 col-lg-1">
+                    <img src="./images/Group (1).svg" alt="Error">
+                </div>
+                <div class="col-4 col-sm-4 col-md-4 mb-3 col-lg-1">
+                    <img src="./images/Group (2).svg" alt="Error">
+                </div>
+                <div class="col-4 col-sm-4 col-md-4 col-lg-1">
+                    <img src="./images/Group (3).svg" alt="Error">
+                </div>
+                <div class="col-4 col-sm-4 col-md-4 col-lg-1">
+                    <img src="./images/Group (4).svg" alt="Error">  
+                </div>
             </div>
         </div>
-        <div class="index col-12">
+
+        <div class="index">
             <div class="row">
-                <div class="index__image col-6">
+                <div class="index__image col-12 col-sm-12  col-lg-6">
                     <img src="./images/Content Image 02.png" alt="Error">
                 </div>
-                <div class="index__one col-6">
+                <div class="index__one col-12 col-sm-12 col-lg-6">
                     <h1>Subscription index</h1>
                     <div class="index__two">
                         <p>A daily dataset to keep you up to date on 
@@ -103,7 +113,7 @@
 
         <div class="metric">
             <div class="row">
-                <div class="metric_text col-6">
+                <div class="metric_text col-12 col-sm-12 col-md-6 col-lg-6">
                     <h1>
                         In-depth metrics
                     </h1>
@@ -117,7 +127,7 @@
                         <span class="read_more_btn">Learn More...</span>
                     </div>
                 </div>
-                <div class="metric_image col-6">
+                <div class="metric_image col-12 col-sm-12 col-md-6 col-lg-6">
                     <img src="./images/Content Image.png" alt="Error">
                 </div>
             </div>
@@ -125,17 +135,17 @@
 
         <div class="boxs">
             <div class="row">
-                <div class="box col-4">
+                <div class="box col-12 col-sm-4 col-md-4">
                     <img src="./images/Card.png" alt="Error">
                     <h2>Benchmarks</h2>
                     <p>See how you stack up against comparable companies in similar stages.</p>
                 </div>
-                <div class="box col-4">
+                <div class="box col-12 col-sm-4 col-md-4">
                     <img src="./images/Calculator.png" alt="Error">
                     <h2>Pricing Audit</h2>
                     <p>Benchmark the health of your monetization and pricing strategy.</p>
                 </div>
-                <div class="box col-4">
+                <div class="box col-12 col-sm-4 col-md-4">
                     <img src="./images/Camera.png" alt="Error">
                     <h2>Retention Audit</h2>
                     <p>Audit where revenue leakage exists and where you can increase retention.</p>
@@ -143,8 +153,80 @@
             </div>
         </div>
 
-        .future
-    </div>
+        <div class="future">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-6">
+                    <h1>
+                        Get the right plan for future product.
+                    </h1>
+                </div>
+                <div class="form_btn col-12 col-sm-6 col-lg-6">
+                    <div id="change_btn"></div>
+                    <button class="toggle_btn btn">Yearly</button>
+                    <button class="toggle_btn btn">Monthly</button>
+                    <!-- <button onclick="leftClick()" type="button" class="toggle_btn">Yearly</button>
+                    <button onclick="rightClick()" type="button" class="toggle_btn">Monthly</button> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4">
+                    <div class="footer_box">
+                        <p  class="mb-3">Starter</p>
+                        <h1 class="mb-4">Free</h1>
+                        <div>
+                            <p>1 Website</p>
+                        </div>
+                        <div>
+                            <p>5 GB Hosting</p>
+                        </div>
+                        <div>
+                            <p>Limited Support</p>
+                        </div>
+                        
+                        <button class="footer_box_btn btn mb-3 mt-3">Get Started</button>
+                    </div>                   
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4">
+                    <div class="footer_box">
+                        <p  class="mb-3">Premium</p>
+                        <h1 class="mb-4">$29/month</h1>
+                        <div>
+                            <p>10 Website</p>
+                        </div>
+                        <div>
+                            <p>15 GB Hosting</p>
+                        </div>
+                        <div>
+                            <p>Premium Support</p>
+                        </div>
+                        
+                        <button class="footer_box_btn btn mb-3 mt-3">Get Started</button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4">
+                    <div class="footer_box">
+                        <p  class="mb-3">Enterprise</p>
+                        <h1 class="mb-4">$49/month</h1>
+                        <div>
+                            <p>Unlimited Website</p>
+                        </div>
+                        <div>
+                            <p>50 GB Hosting</p>
+                        </div>
+                        <div>
+                            <p>Premium Support</p>
+                        </div>
+                        
+                        <button class="footer_box_btn btn mb-3 mt-3">Get Started</button>
+                    </div>   
+                </div>
+            </div>
+            
+        </div>
+    </div>     
     
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./js/main.js"></script>
